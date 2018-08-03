@@ -17,6 +17,8 @@ Ticker.prototype = {
 var ticker = new Ticker();
 setInterval(ticker.tick, 1000);
 ```
-```this._i``` не увеличивается потому что нет привязки к контексту, setInterval получил функцию ticker.tick, но не её контекст.
-Исправить это можно с помощью создания функции обёртки: ```setInterval(() => ticker.tick(), 1000);```;
-Использовать ```.bind()``` для привязки контектса ```setInterval(ticker.tick.bind(ticker), 1000);```
+```this._i``` не увеличивается потому что нет привязки к контексту, 
+```setInterval``` получил функцию ticker.tick, но не её контекст.
+Исправить это можно с помощью создания функции обёртки: 
+```setInterval(() => ticker.tick(), 1000);```;
+Или использовать ```.bind()``` для привязки контектса ```setInterval(ticker.tick.bind(ticker), 1000);```
