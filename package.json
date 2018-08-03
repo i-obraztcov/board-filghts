@@ -2,7 +2,7 @@
   "name": "board-flights",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://i-obraztcov.github.io/board-flights",
+  "homepage": "https://i-obraztcov.github.io/board-flights",
   "dependencies": {
     "axios": "^0.18.0",
     "classnames": "^2.2.6",
@@ -12,7 +12,7 @@
     "react-scripts": "1.1.4"
   },
   "scripts": {
-    "predeploy": "npm run build",
+    "predeploy": "react-scripts build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
