@@ -3,7 +3,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 # Табло аэропорта
 Для получения данных о расписании использовал этот сервис: [Aviation Edge](https://aviation-edge.com/developers/)
 
-Результат можно посмотреть [здесь](https://i-obraztcov.github.io/board-flights/)
+Результат можно посмотреть [здесь](https://i-obraztsov.github.io/board-flights/)
 
 # Tiker
 ```
